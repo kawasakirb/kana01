@@ -1,0 +1,43 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "vendor"]
+highlighter: rouge
+markdown: kramdown
+#disqus: dbyll
+#google_analytics: dbyll
+title : 神奈川Ruby会議01
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+destination: "docs"
+
+description: Stylish Jekyll Theme
+author:
+  name : 神奈川Ruby会議01
+  twitter : kawasakirb
+  github : kawasakirb
+  email_md5 : b67b36eebfde05189f5b02ded89375d4
+
+
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+
+baseurl: "/kana01"
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: /kana01
+
+gems:
+  - jekyll-paginate
